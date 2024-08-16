@@ -1,0 +1,22 @@
+git config --global user.name jhillblabs
+git config --global user.email jhilzinhavendito@gamil.com
+
+dotnet new mvc -o Pokedex
+
+cd Pokedex
+
+dotnet watch run
+
+Abrir Nuget Gallery
+Ctrl + Shift + P - Pesquisar Nuget
+
+
+dotnet tool install --global dotnet-ef --version 8.0.7
+
+dotnet tool update --global dotnet-ef --version 8.0.7
+
+dotnet ef migrations add inicializando-banco
+
+dotnet ef database update
+
+SQL Inserir Dados e executar no Workbench
